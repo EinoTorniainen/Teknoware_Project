@@ -7,3 +7,5 @@
 5. I do everything. :(
 6. I communicate with myself through pigeons.
 7. 
+8. Initial findings: I have no clue what I'm doing. I need: Microcontroller W/ Wifi, skill and know-how I don't have. And an API or few.
+9. I will do testing whenever I feel like it. Probably constantly.
