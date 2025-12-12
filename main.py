@@ -1,3 +1,5 @@
+# I know this is absolute dogshit :) 
+
 import requests
 import network
 from machine import Pin,PWM
@@ -37,10 +39,11 @@ while True:
     ssmin = int(sunset[14:16])
     sssec = (sshr*60+ssmin)*60
 
-    # turn light on/off based on time
+    # adjusts brightness based on time
     if now_sec > srsec and now_sec < sssec:
         pwm.duty_u16(40000)
     else:
         pwm.duty_u16(50000)
         
+
     time.sleep(300)
